@@ -1,0 +1,10 @@
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\bin\Debug\PC OVL Viewer.exe.config
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\bin\Debug\PC OVL Viewer.exe
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\bin\Debug\PC OVL Viewer.pdb
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC OVL Viewer.csprojResolveAssemblyReference.cache
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC_OVL_Viewer.Form1.resources
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC_OVL_Viewer.Properties.Resources.resources
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC OVL Viewer.csproj.GenerateResource.Cache
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC OVL Viewer.csproj.CoreCompileInputs.cache
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC OVL Viewer.exe
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC OVL Viewer.pdb
