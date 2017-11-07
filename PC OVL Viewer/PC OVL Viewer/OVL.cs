@@ -12,12 +12,12 @@ namespace PC_OVL_Viewer
 {
     class OVL
     {
-        public Header header { get; }
+        public OHeader header { get; }
+        public OStringTable st { get; }
 
         private BinaryReader reader;
-
         private int headerID;
-        
+               
         public OVL(string fullPath)
         {   
             try
@@ -30,13 +30,13 @@ namespace PC_OVL_Viewer
             }
             finally
             {
-                header = new Header(reader);
+                header = new OHeader(reader);
                 validateHeader();
                 header.save(fullPath);
                 header.setHeaderID();
                 headerID = header.headerID;
-                StringTable st = new StringTable(reader, (int)(header.stringTableSize));
-                st.stringTableSave(headerID);
+                st = new OStringTable(reader, (int)(header.stringTableSize));
+                //st.stringTableSave(headerID);
             }
         }
 

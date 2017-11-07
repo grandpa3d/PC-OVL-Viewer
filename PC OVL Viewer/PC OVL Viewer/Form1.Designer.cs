@@ -43,14 +43,14 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.headersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.oVLDataSet = new PC_OVL_Viewer.OVLDataSet();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.oVLDataSet = new PC_OVL_Viewer.OVLDataSet();
-            this.headersTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.HeadersTableAdapter();
-            this.headersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.stringTablesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.stringTablesTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.StringTablesTableAdapter();
             this.stringDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stringTablesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.headersTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.HeadersTableAdapter();
+            this.stringTablesTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.StringTablesTableAdapter();
             this.fileNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fileFormatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gameFlagDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,10 +96,10 @@
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.headersBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oVLDataSet)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.oVLDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.headersBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stringTablesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -274,13 +274,23 @@
             this.dataGridView2.Size = new System.Drawing.Size(1405, 435);
             this.dataGridView2.TabIndex = 1;
             // 
+            // headersBindingSource
+            // 
+            this.headersBindingSource.DataMember = "Headers";
+            this.headersBindingSource.DataSource = this.oVLDataSet;
+            // 
+            // oVLDataSet
+            // 
+            this.oVLDataSet.DataSetName = "OVLDataSet";
+            this.oVLDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.dataGridView3);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1176, 486);
+            this.tabPage2.Size = new System.Drawing.Size(1411, 441);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "String Table";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -299,31 +309,8 @@
             this.dataGridView3.Location = new System.Drawing.Point(3, 3);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
-            this.dataGridView3.Size = new System.Drawing.Size(1170, 480);
+            this.dataGridView3.Size = new System.Drawing.Size(1405, 435);
             this.dataGridView3.TabIndex = 0;
-            // 
-            // oVLDataSet
-            // 
-            this.oVLDataSet.DataSetName = "OVLDataSet";
-            this.oVLDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // headersTableAdapter
-            // 
-            this.headersTableAdapter.ClearBeforeFill = true;
-            // 
-            // headersBindingSource
-            // 
-            this.headersBindingSource.DataMember = "Headers";
-            this.headersBindingSource.DataSource = this.oVLDataSet;
-            // 
-            // stringTablesBindingSource
-            // 
-            this.stringTablesBindingSource.DataMember = "StringTables";
-            this.stringTablesBindingSource.DataSource = this.oVLDataSet;
-            // 
-            // stringTablesTableAdapter
-            // 
-            this.stringTablesTableAdapter.ClearBeforeFill = true;
             // 
             // stringDataGridViewTextBoxColumn
             // 
@@ -332,6 +319,19 @@
             this.stringDataGridViewTextBoxColumn.HeaderText = "string";
             this.stringDataGridViewTextBoxColumn.Name = "stringDataGridViewTextBoxColumn";
             this.stringDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // stringTablesBindingSource
+            // 
+            this.stringTablesBindingSource.DataMember = "StringTables";
+            this.stringTablesBindingSource.DataSource = this.oVLDataSet;
+            // 
+            // headersTableAdapter
+            // 
+            this.headersTableAdapter.ClearBeforeFill = true;
+            // 
+            // stringTablesTableAdapter
+            // 
+            this.stringTablesTableAdapter.ClearBeforeFill = true;
             // 
             // fileNameDataGridViewTextBoxColumn
             // 
@@ -408,7 +408,7 @@
             // otherCountDataGridViewTextBoxColumn
             // 
             this.otherCountDataGridViewTextBoxColumn.DataPropertyName = "otherCount";
-            this.otherCountDataGridViewTextBoxColumn.HeaderText = "Other Count";
+            this.otherCountDataGridViewTextBoxColumn.HeaderText = "Other Count1";
             this.otherCountDataGridViewTextBoxColumn.Name = "otherCountDataGridViewTextBoxColumn";
             this.otherCountDataGridViewTextBoxColumn.ReadOnly = true;
             this.otherCountDataGridViewTextBoxColumn.Width = 40;
@@ -416,7 +416,7 @@
             // dirCountDataGridViewTextBoxColumn
             // 
             this.dirCountDataGridViewTextBoxColumn.DataPropertyName = "dirCount";
-            this.dirCountDataGridViewTextBoxColumn.HeaderText = "Dir Count";
+            this.dirCountDataGridViewTextBoxColumn.HeaderText = "Other Count2";
             this.dirCountDataGridViewTextBoxColumn.Name = "dirCountDataGridViewTextBoxColumn";
             this.dirCountDataGridViewTextBoxColumn.ReadOnly = true;
             this.dirCountDataGridViewTextBoxColumn.Width = 40;
@@ -424,7 +424,7 @@
             // typeCountDataGridViewTextBoxColumn
             // 
             this.typeCountDataGridViewTextBoxColumn.DataPropertyName = "typeCount";
-            this.typeCountDataGridViewTextBoxColumn.HeaderText = "Type Count";
+            this.typeCountDataGridViewTextBoxColumn.HeaderText = "Dir Count";
             this.typeCountDataGridViewTextBoxColumn.Name = "typeCountDataGridViewTextBoxColumn";
             this.typeCountDataGridViewTextBoxColumn.ReadOnly = true;
             this.typeCountDataGridViewTextBoxColumn.Width = 40;
@@ -528,7 +528,7 @@
             // archNamesLengthDataGridViewTextBoxColumn
             // 
             this.archNamesLengthDataGridViewTextBoxColumn.DataPropertyName = "archNamesLength";
-            this.archNamesLengthDataGridViewTextBoxColumn.HeaderText = "Arch Names Length";
+            this.archNamesLengthDataGridViewTextBoxColumn.HeaderText = "Static Name Length";
             this.archNamesLengthDataGridViewTextBoxColumn.Name = "archNamesLengthDataGridViewTextBoxColumn";
             this.archNamesLengthDataGridViewTextBoxColumn.ReadOnly = true;
             this.archNamesLengthDataGridViewTextBoxColumn.Width = 40;
@@ -671,10 +671,10 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.headersBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oVLDataSet)).EndInit();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.oVLDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.headersBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stringTablesBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
