@@ -33,6 +33,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,10 +50,24 @@
             this.oVLDataSet = new PC_OVL_Viewer.OVLDataSet();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.fileNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.stringDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.stringTablesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.fileNameDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.offsetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.u1DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hashDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.u2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prevDirFileCountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fileCountDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.directoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.oVLDataSet1 = new PC_OVL_Viewer.OVLDataSet();
             this.headersTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.HeadersTableAdapter();
             this.stringTablesTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.StringTablesTableAdapter();
+            this.directoriesTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.DirectoriesTableAdapter();
             this.fileNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fileFormatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gameFlagDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -101,6 +118,10 @@
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stringTablesBindingSource)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.directoriesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oVLDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -173,6 +194,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl1.Location = new System.Drawing.Point(0, 24);
@@ -191,14 +213,13 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1411, 441);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Header";
+            this.tabPage1.Text = "Headers";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // dataGridView2
             // 
             this.dataGridView2.AllowUserToAddRows = false;
             this.dataGridView2.AllowUserToDeleteRows = false;
-            this.dataGridView2.AllowUserToOrderColumns = true;
             this.dataGridView2.AutoGenerateColumns = false;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
@@ -287,22 +308,23 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.dataGridView3);
+            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1411, 441);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "String Table";
+            this.tabPage2.Text = "String Tables";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // dataGridView3
             // 
             this.dataGridView3.AllowUserToAddRows = false;
             this.dataGridView3.AllowUserToDeleteRows = false;
-            this.dataGridView3.AllowUserToOrderColumns = true;
             this.dataGridView3.AutoGenerateColumns = false;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.fileNameDataGridViewTextBoxColumn1,
             this.stringDataGridViewTextBoxColumn});
             this.dataGridView3.DataSource = this.stringTablesBindingSource;
             this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -312,11 +334,19 @@
             this.dataGridView3.Size = new System.Drawing.Size(1405, 435);
             this.dataGridView3.TabIndex = 0;
             // 
+            // fileNameDataGridViewTextBoxColumn1
+            // 
+            this.fileNameDataGridViewTextBoxColumn1.DataPropertyName = "fileName";
+            this.fileNameDataGridViewTextBoxColumn1.HeaderText = "File Name";
+            this.fileNameDataGridViewTextBoxColumn1.Name = "fileNameDataGridViewTextBoxColumn1";
+            this.fileNameDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.fileNameDataGridViewTextBoxColumn1.Width = 150;
+            // 
             // stringDataGridViewTextBoxColumn
             // 
             this.stringDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.stringDataGridViewTextBoxColumn.DataPropertyName = "string";
-            this.stringDataGridViewTextBoxColumn.HeaderText = "string";
+            this.stringDataGridViewTextBoxColumn.HeaderText = "String Table";
             this.stringDataGridViewTextBoxColumn.Name = "stringDataGridViewTextBoxColumn";
             this.stringDataGridViewTextBoxColumn.ReadOnly = true;
             // 
@@ -325,6 +355,131 @@
             this.stringTablesBindingSource.DataMember = "StringTables";
             this.stringTablesBindingSource.DataSource = this.oVLDataSet;
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.dataGridView4);
+            this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1411, 441);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Directories";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.AllowUserToAddRows = false;
+            this.dataGridView4.AllowUserToDeleteRows = false;
+            this.dataGridView4.AutoGenerateColumns = false;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.fileNameDataGridViewTextBoxColumn2,
+            this.nameDataGridViewTextBoxColumn,
+            this.offsetDataGridViewTextBoxColumn,
+            this.u1DataGridViewTextBoxColumn1,
+            this.hashDataGridViewTextBoxColumn,
+            this.u2DataGridViewTextBoxColumn1,
+            this.prevDirFileCountDataGridViewTextBoxColumn,
+            this.fileCountDataGridViewTextBoxColumn1});
+            this.dataGridView4.DataSource = this.directoriesBindingSource;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle6;
+            this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView4.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.ReadOnly = true;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.dataGridView4.Size = new System.Drawing.Size(1405, 435);
+            this.dataGridView4.TabIndex = 0;
+            // 
+            // fileNameDataGridViewTextBoxColumn2
+            // 
+            this.fileNameDataGridViewTextBoxColumn2.DataPropertyName = "fileName";
+            this.fileNameDataGridViewTextBoxColumn2.HeaderText = "fileName";
+            this.fileNameDataGridViewTextBoxColumn2.Name = "fileNameDataGridViewTextBoxColumn2";
+            this.fileNameDataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // offsetDataGridViewTextBoxColumn
+            // 
+            this.offsetDataGridViewTextBoxColumn.DataPropertyName = "offset";
+            this.offsetDataGridViewTextBoxColumn.HeaderText = "offset";
+            this.offsetDataGridViewTextBoxColumn.Name = "offsetDataGridViewTextBoxColumn";
+            this.offsetDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // u1DataGridViewTextBoxColumn1
+            // 
+            this.u1DataGridViewTextBoxColumn1.DataPropertyName = "u1";
+            this.u1DataGridViewTextBoxColumn1.HeaderText = "u1";
+            this.u1DataGridViewTextBoxColumn1.Name = "u1DataGridViewTextBoxColumn1";
+            this.u1DataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // hashDataGridViewTextBoxColumn
+            // 
+            this.hashDataGridViewTextBoxColumn.DataPropertyName = "hash";
+            this.hashDataGridViewTextBoxColumn.HeaderText = "hash";
+            this.hashDataGridViewTextBoxColumn.Name = "hashDataGridViewTextBoxColumn";
+            this.hashDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // u2DataGridViewTextBoxColumn1
+            // 
+            this.u2DataGridViewTextBoxColumn1.DataPropertyName = "u2";
+            this.u2DataGridViewTextBoxColumn1.HeaderText = "u2";
+            this.u2DataGridViewTextBoxColumn1.Name = "u2DataGridViewTextBoxColumn1";
+            this.u2DataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // prevDirFileCountDataGridViewTextBoxColumn
+            // 
+            this.prevDirFileCountDataGridViewTextBoxColumn.DataPropertyName = "prevDirFileCount";
+            this.prevDirFileCountDataGridViewTextBoxColumn.HeaderText = "prevDirFileCount";
+            this.prevDirFileCountDataGridViewTextBoxColumn.Name = "prevDirFileCountDataGridViewTextBoxColumn";
+            this.prevDirFileCountDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // fileCountDataGridViewTextBoxColumn1
+            // 
+            this.fileCountDataGridViewTextBoxColumn1.DataPropertyName = "fileCount";
+            this.fileCountDataGridViewTextBoxColumn1.HeaderText = "fileCount";
+            this.fileCountDataGridViewTextBoxColumn1.Name = "fileCountDataGridViewTextBoxColumn1";
+            this.fileCountDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // directoriesBindingSource
+            // 
+            this.directoriesBindingSource.DataMember = "Directories";
+            this.directoriesBindingSource.DataSource = this.oVLDataSet1;
+            // 
+            // oVLDataSet1
+            // 
+            this.oVLDataSet1.DataSetName = "OVLDataSet";
+            this.oVLDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // headersTableAdapter
             // 
             this.headersTableAdapter.ClearBeforeFill = true;
@@ -332,6 +487,10 @@
             // stringTablesTableAdapter
             // 
             this.stringTablesTableAdapter.ClearBeforeFill = true;
+            // 
+            // directoriesTableAdapter
+            // 
+            this.directoriesTableAdapter.ClearBeforeFill = true;
             // 
             // fileNameDataGridViewTextBoxColumn
             // 
@@ -528,7 +687,7 @@
             // archNamesLengthDataGridViewTextBoxColumn
             // 
             this.archNamesLengthDataGridViewTextBoxColumn.DataPropertyName = "archNamesLength";
-            this.archNamesLengthDataGridViewTextBoxColumn.HeaderText = "Static Name Length";
+            this.archNamesLengthDataGridViewTextBoxColumn.HeaderText = "Arch String Size";
             this.archNamesLengthDataGridViewTextBoxColumn.Name = "archNamesLengthDataGridViewTextBoxColumn";
             this.archNamesLengthDataGridViewTextBoxColumn.ReadOnly = true;
             this.archNamesLengthDataGridViewTextBoxColumn.Width = 40;
@@ -544,7 +703,7 @@
             // typeNamesLengthDataGridViewTextBoxColumn
             // 
             this.typeNamesLengthDataGridViewTextBoxColumn.DataPropertyName = "typeNamesLength";
-            this.typeNamesLengthDataGridViewTextBoxColumn.HeaderText = "Type Names Length";
+            this.typeNamesLengthDataGridViewTextBoxColumn.HeaderText = "Dir Names Length";
             this.typeNamesLengthDataGridViewTextBoxColumn.Name = "typeNamesLengthDataGridViewTextBoxColumn";
             this.typeNamesLengthDataGridViewTextBoxColumn.ReadOnly = true;
             this.typeNamesLengthDataGridViewTextBoxColumn.Width = 40;
@@ -676,6 +835,10 @@
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stringTablesBindingSource)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.directoriesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.oVLDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -698,9 +861,23 @@
         private OVLDataSet oVLDataSet;
         private OVLDataSetTableAdapters.HeadersTableAdapter headersTableAdapter;
         private System.Windows.Forms.BindingSource headersBindingSource;
-        private System.Windows.Forms.BindingSource stringTablesBindingSource;
         private OVLDataSetTableAdapters.StringTablesTableAdapter stringTablesTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fileNameDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn stringDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource stringTablesBindingSource;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fileNameDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn offsetDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn u1DataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn hashDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn u2DataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn prevDirFileCountDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fileCountDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.BindingSource directoriesBindingSource;
+        private OVLDataSet oVLDataSet1;
+        private OVLDataSetTableAdapters.DirectoriesTableAdapter directoriesTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn fileNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn fileFormatDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn gameFlagDataGridViewTextBoxColumn;

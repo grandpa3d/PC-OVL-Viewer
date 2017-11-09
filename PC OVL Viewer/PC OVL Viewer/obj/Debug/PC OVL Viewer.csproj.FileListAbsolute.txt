@@ -8,3 +8,4 @@ C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC OVL View
 C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC OVL Viewer.csproj.CoreCompileInputs.cache
 C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC OVL Viewer.exe
 C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\obj\Debug\PC OVL Viewer.pdb
+C:\Users\Randolph\source\repos\PC OVL Viewer\PC OVL Viewer\bin\Debug\Ionic.Zlib.dll
