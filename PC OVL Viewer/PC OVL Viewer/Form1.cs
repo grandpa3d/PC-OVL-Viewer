@@ -21,6 +21,7 @@ namespace PC_OVL_Viewer
 
         private void OVLopenBtn_Click(object sender, EventArgs e)
         {
+            openFileDialog.FileName = "select Planet Coaster OVL file";
             openFileDialog.Filter = "Planet Coaster OVL Files|*.ovl";
 
             if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
@@ -39,6 +40,26 @@ namespace PC_OVL_Viewer
                Form1Update();
             }
         }
+
+        private void OVSopenBtn_Click(object sender, EventArgs e)
+        {
+            openFileDialog.FileName = "select Planet Coaster OVS file";
+            openFileDialog.Filter = "Planet Coaster OVS Files|*.ovs";
+
+            if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                if (openFileDialog.FileName.Contains(".ovs"))
+                {
+                    OZlib zlib = new OZlib(openFileDialog.FileName);
+                    MessageBox.Show("The file has been Successfully unpacked");
+                }
+                else
+                {
+                    MessageBox.Show("This is not a Planet Coaster OVS file");
+                }
+            }
+        }
+
 
         private bool exists(string fullPath)
         {

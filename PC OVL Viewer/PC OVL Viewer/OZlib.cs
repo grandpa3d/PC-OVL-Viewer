@@ -12,8 +12,12 @@ namespace PC_OVL_Viewer
     {
         public OZlib(string fileName, byte[] data) 
         {
-            //File.WriteAllBytes(path + ".out", ZlibStream.UncompressBuffer(o.GetCompressedData));
             File.WriteAllBytes(fileName + ".ove", ZlibStream.UncompressBuffer(data));
+        }
+
+        public OZlib(string fileName)
+        {
+            File.WriteAllBytes(fileName + ".ove", ZlibStream.UncompressBuffer(File.ReadAllBytes(fileName)));
         }
     }
 }

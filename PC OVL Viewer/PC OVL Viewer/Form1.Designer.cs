@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,28 +46,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.headersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.oVLDataSet = new PC_OVL_Viewer.OVLDataSet();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.fileNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.stringDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.stringTablesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.fileNameDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.offsetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.u1DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hashDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.u2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prevDirFileCountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fileCountDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.directoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.oVLDataSet1 = new PC_OVL_Viewer.OVLDataSet();
-            this.headersTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.HeadersTableAdapter();
-            this.stringTablesTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.StringTablesTableAdapter();
-            this.directoriesTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.DirectoriesTableAdapter();
             this.fileNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fileFormatDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gameFlagDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -108,6 +86,29 @@
             this.u22DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.u23DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.u24DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.headersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.oVLDataSet = new PC_OVL_Viewer.OVLDataSet();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.fileNameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stringDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stringTablesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.fileNameDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.offsetDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.u1DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hashDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.u2DataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prevDirFileCountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fileCountDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.directoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.oVLDataSet1 = new PC_OVL_Viewer.OVLDataSet();
+            this.headersTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.HeadersTableAdapter();
+            this.stringTablesTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.StringTablesTableAdapter();
+            this.directoriesTableAdapter = new PC_OVL_Viewer.OVLDataSetTableAdapters.DirectoriesTableAdapter();
+            this.OVSopenBtn = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -134,14 +135,14 @@
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView1.Size = new System.Drawing.Size(1405, 435);
             this.dataGridView1.TabIndex = 0;
             // 
@@ -159,6 +160,7 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.OVLopenBtn,
+            this.OVSopenBtn,
             this.exitMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -167,20 +169,16 @@
             // OVLopenBtn
             // 
             this.OVLopenBtn.Name = "OVLopenBtn";
-            this.OVLopenBtn.Size = new System.Drawing.Size(125, 22);
+            this.OVLopenBtn.Size = new System.Drawing.Size(152, 22);
             this.OVLopenBtn.Text = "Open .ovl";
             this.OVLopenBtn.Click += new System.EventHandler(this.OVLopenBtn_Click);
             // 
             // exitMenuItem
             // 
             this.exitMenuItem.Name = "exitMenuItem";
-            this.exitMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.exitMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitMenuItem.Text = "Exit";
             this.exitMenuItem.Click += new System.EventHandler(this.exitMenuItem_Click);
-            // 
-            // openFileDialog
-            // 
-            this.openFileDialog.FileName = "select Planet Coaster OVL file";
             // 
             // statusStrip1
             // 
@@ -221,14 +219,14 @@
             this.dataGridView2.AllowUserToAddRows = false;
             this.dataGridView2.AllowUserToDeleteRows = false;
             this.dataGridView2.AutoGenerateColumns = false;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.fileNameDataGridViewTextBoxColumn,
@@ -272,225 +270,28 @@
             this.u23DataGridViewTextBoxColumn,
             this.u24DataGridViewTextBoxColumn});
             this.dataGridView2.DataSource = this.headersBindingSource;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(3, 3);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridView2.Size = new System.Drawing.Size(1405, 435);
             this.dataGridView2.TabIndex = 1;
-            // 
-            // headersBindingSource
-            // 
-            this.headersBindingSource.DataMember = "Headers";
-            this.headersBindingSource.DataSource = this.oVLDataSet;
-            // 
-            // oVLDataSet
-            // 
-            this.oVLDataSet.DataSetName = "OVLDataSet";
-            this.oVLDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.dataGridView3);
-            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1411, 441);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "String Tables";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView3
-            // 
-            this.dataGridView3.AllowUserToAddRows = false;
-            this.dataGridView3.AllowUserToDeleteRows = false;
-            this.dataGridView3.AutoGenerateColumns = false;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.fileNameDataGridViewTextBoxColumn1,
-            this.stringDataGridViewTextBoxColumn});
-            this.dataGridView3.DataSource = this.stringTablesBindingSource;
-            this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView3.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.ReadOnly = true;
-            this.dataGridView3.Size = new System.Drawing.Size(1405, 435);
-            this.dataGridView3.TabIndex = 0;
-            // 
-            // fileNameDataGridViewTextBoxColumn1
-            // 
-            this.fileNameDataGridViewTextBoxColumn1.DataPropertyName = "fileName";
-            this.fileNameDataGridViewTextBoxColumn1.HeaderText = "File Name";
-            this.fileNameDataGridViewTextBoxColumn1.Name = "fileNameDataGridViewTextBoxColumn1";
-            this.fileNameDataGridViewTextBoxColumn1.ReadOnly = true;
-            this.fileNameDataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // stringDataGridViewTextBoxColumn
-            // 
-            this.stringDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.stringDataGridViewTextBoxColumn.DataPropertyName = "string";
-            this.stringDataGridViewTextBoxColumn.HeaderText = "String Table";
-            this.stringDataGridViewTextBoxColumn.Name = "stringDataGridViewTextBoxColumn";
-            this.stringDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // stringTablesBindingSource
-            // 
-            this.stringTablesBindingSource.DataMember = "StringTables";
-            this.stringTablesBindingSource.DataSource = this.oVLDataSet;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.dataGridView4);
-            this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1411, 441);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Directories";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView4
-            // 
-            this.dataGridView4.AllowUserToAddRows = false;
-            this.dataGridView4.AllowUserToDeleteRows = false;
-            this.dataGridView4.AutoGenerateColumns = false;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.fileNameDataGridViewTextBoxColumn2,
-            this.nameDataGridViewTextBoxColumn,
-            this.offsetDataGridViewTextBoxColumn,
-            this.u1DataGridViewTextBoxColumn1,
-            this.hashDataGridViewTextBoxColumn,
-            this.u2DataGridViewTextBoxColumn1,
-            this.prevDirFileCountDataGridViewTextBoxColumn,
-            this.fileCountDataGridViewTextBoxColumn1});
-            this.dataGridView4.DataSource = this.directoriesBindingSource;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView4.Location = new System.Drawing.Point(3, 3);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.ReadOnly = true;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            this.dataGridView4.Size = new System.Drawing.Size(1405, 435);
-            this.dataGridView4.TabIndex = 0;
-            // 
-            // fileNameDataGridViewTextBoxColumn2
-            // 
-            this.fileNameDataGridViewTextBoxColumn2.DataPropertyName = "fileName";
-            this.fileNameDataGridViewTextBoxColumn2.HeaderText = "fileName";
-            this.fileNameDataGridViewTextBoxColumn2.Name = "fileNameDataGridViewTextBoxColumn2";
-            this.fileNameDataGridViewTextBoxColumn2.ReadOnly = true;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // offsetDataGridViewTextBoxColumn
-            // 
-            this.offsetDataGridViewTextBoxColumn.DataPropertyName = "offset";
-            this.offsetDataGridViewTextBoxColumn.HeaderText = "offset";
-            this.offsetDataGridViewTextBoxColumn.Name = "offsetDataGridViewTextBoxColumn";
-            this.offsetDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // u1DataGridViewTextBoxColumn1
-            // 
-            this.u1DataGridViewTextBoxColumn1.DataPropertyName = "u1";
-            this.u1DataGridViewTextBoxColumn1.HeaderText = "u1";
-            this.u1DataGridViewTextBoxColumn1.Name = "u1DataGridViewTextBoxColumn1";
-            this.u1DataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // hashDataGridViewTextBoxColumn
-            // 
-            this.hashDataGridViewTextBoxColumn.DataPropertyName = "hash";
-            this.hashDataGridViewTextBoxColumn.HeaderText = "hash";
-            this.hashDataGridViewTextBoxColumn.Name = "hashDataGridViewTextBoxColumn";
-            this.hashDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // u2DataGridViewTextBoxColumn1
-            // 
-            this.u2DataGridViewTextBoxColumn1.DataPropertyName = "u2";
-            this.u2DataGridViewTextBoxColumn1.HeaderText = "u2";
-            this.u2DataGridViewTextBoxColumn1.Name = "u2DataGridViewTextBoxColumn1";
-            this.u2DataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // prevDirFileCountDataGridViewTextBoxColumn
-            // 
-            this.prevDirFileCountDataGridViewTextBoxColumn.DataPropertyName = "prevDirFileCount";
-            this.prevDirFileCountDataGridViewTextBoxColumn.HeaderText = "prevDirFileCount";
-            this.prevDirFileCountDataGridViewTextBoxColumn.Name = "prevDirFileCountDataGridViewTextBoxColumn";
-            this.prevDirFileCountDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // fileCountDataGridViewTextBoxColumn1
-            // 
-            this.fileCountDataGridViewTextBoxColumn1.DataPropertyName = "fileCount";
-            this.fileCountDataGridViewTextBoxColumn1.HeaderText = "fileCount";
-            this.fileCountDataGridViewTextBoxColumn1.Name = "fileCountDataGridViewTextBoxColumn1";
-            this.fileCountDataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // directoriesBindingSource
-            // 
-            this.directoriesBindingSource.DataMember = "Directories";
-            this.directoriesBindingSource.DataSource = this.oVLDataSet1;
-            // 
-            // oVLDataSet1
-            // 
-            this.oVLDataSet1.DataSetName = "OVLDataSet";
-            this.oVLDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // headersTableAdapter
-            // 
-            this.headersTableAdapter.ClearBeforeFill = true;
-            // 
-            // stringTablesTableAdapter
-            // 
-            this.stringTablesTableAdapter.ClearBeforeFill = true;
-            // 
-            // directoriesTableAdapter
-            // 
-            this.directoriesTableAdapter.ClearBeforeFill = true;
             // 
             // fileNameDataGridViewTextBoxColumn
             // 
@@ -812,6 +613,210 @@
             this.u24DataGridViewTextBoxColumn.ReadOnly = true;
             this.u24DataGridViewTextBoxColumn.Width = 30;
             // 
+            // headersBindingSource
+            // 
+            this.headersBindingSource.DataMember = "Headers";
+            this.headersBindingSource.DataSource = this.oVLDataSet;
+            // 
+            // oVLDataSet
+            // 
+            this.oVLDataSet.DataSetName = "OVLDataSet";
+            this.oVLDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.dataGridView3);
+            this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1411, 441);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "String Tables";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.AllowUserToAddRows = false;
+            this.dataGridView3.AllowUserToDeleteRows = false;
+            this.dataGridView3.AutoGenerateColumns = false;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.fileNameDataGridViewTextBoxColumn1,
+            this.stringDataGridViewTextBoxColumn});
+            this.dataGridView3.DataSource = this.stringTablesBindingSource;
+            this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView3.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.ReadOnly = true;
+            this.dataGridView3.Size = new System.Drawing.Size(1405, 435);
+            this.dataGridView3.TabIndex = 0;
+            // 
+            // fileNameDataGridViewTextBoxColumn1
+            // 
+            this.fileNameDataGridViewTextBoxColumn1.DataPropertyName = "fileName";
+            this.fileNameDataGridViewTextBoxColumn1.HeaderText = "File Name";
+            this.fileNameDataGridViewTextBoxColumn1.Name = "fileNameDataGridViewTextBoxColumn1";
+            this.fileNameDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.fileNameDataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // stringDataGridViewTextBoxColumn
+            // 
+            this.stringDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.stringDataGridViewTextBoxColumn.DataPropertyName = "string";
+            this.stringDataGridViewTextBoxColumn.HeaderText = "String Table";
+            this.stringDataGridViewTextBoxColumn.Name = "stringDataGridViewTextBoxColumn";
+            this.stringDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // stringTablesBindingSource
+            // 
+            this.stringTablesBindingSource.DataMember = "StringTables";
+            this.stringTablesBindingSource.DataSource = this.oVLDataSet;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.dataGridView4);
+            this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1411, 441);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Directories";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.AllowUserToAddRows = false;
+            this.dataGridView4.AllowUserToDeleteRows = false;
+            this.dataGridView4.AutoGenerateColumns = false;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.fileNameDataGridViewTextBoxColumn2,
+            this.nameDataGridViewTextBoxColumn,
+            this.offsetDataGridViewTextBoxColumn,
+            this.u1DataGridViewTextBoxColumn1,
+            this.hashDataGridViewTextBoxColumn,
+            this.u2DataGridViewTextBoxColumn1,
+            this.prevDirFileCountDataGridViewTextBoxColumn,
+            this.fileCountDataGridViewTextBoxColumn1});
+            this.dataGridView4.DataSource = this.directoriesBindingSource;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle13;
+            this.dataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView4.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.ReadOnly = true;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            this.dataGridView4.Size = new System.Drawing.Size(1405, 435);
+            this.dataGridView4.TabIndex = 0;
+            // 
+            // fileNameDataGridViewTextBoxColumn2
+            // 
+            this.fileNameDataGridViewTextBoxColumn2.DataPropertyName = "fileName";
+            this.fileNameDataGridViewTextBoxColumn2.HeaderText = "fileName";
+            this.fileNameDataGridViewTextBoxColumn2.Name = "fileNameDataGridViewTextBoxColumn2";
+            this.fileNameDataGridViewTextBoxColumn2.ReadOnly = true;
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            this.nameDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // offsetDataGridViewTextBoxColumn
+            // 
+            this.offsetDataGridViewTextBoxColumn.DataPropertyName = "offset";
+            this.offsetDataGridViewTextBoxColumn.HeaderText = "offset";
+            this.offsetDataGridViewTextBoxColumn.Name = "offsetDataGridViewTextBoxColumn";
+            this.offsetDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // u1DataGridViewTextBoxColumn1
+            // 
+            this.u1DataGridViewTextBoxColumn1.DataPropertyName = "u1";
+            this.u1DataGridViewTextBoxColumn1.HeaderText = "u1";
+            this.u1DataGridViewTextBoxColumn1.Name = "u1DataGridViewTextBoxColumn1";
+            this.u1DataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // hashDataGridViewTextBoxColumn
+            // 
+            this.hashDataGridViewTextBoxColumn.DataPropertyName = "hash";
+            this.hashDataGridViewTextBoxColumn.HeaderText = "hash";
+            this.hashDataGridViewTextBoxColumn.Name = "hashDataGridViewTextBoxColumn";
+            this.hashDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // u2DataGridViewTextBoxColumn1
+            // 
+            this.u2DataGridViewTextBoxColumn1.DataPropertyName = "u2";
+            this.u2DataGridViewTextBoxColumn1.HeaderText = "u2";
+            this.u2DataGridViewTextBoxColumn1.Name = "u2DataGridViewTextBoxColumn1";
+            this.u2DataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // prevDirFileCountDataGridViewTextBoxColumn
+            // 
+            this.prevDirFileCountDataGridViewTextBoxColumn.DataPropertyName = "prevDirFileCount";
+            this.prevDirFileCountDataGridViewTextBoxColumn.HeaderText = "prevDirFileCount";
+            this.prevDirFileCountDataGridViewTextBoxColumn.Name = "prevDirFileCountDataGridViewTextBoxColumn";
+            this.prevDirFileCountDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // fileCountDataGridViewTextBoxColumn1
+            // 
+            this.fileCountDataGridViewTextBoxColumn1.DataPropertyName = "fileCount";
+            this.fileCountDataGridViewTextBoxColumn1.HeaderText = "fileCount";
+            this.fileCountDataGridViewTextBoxColumn1.Name = "fileCountDataGridViewTextBoxColumn1";
+            this.fileCountDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // directoriesBindingSource
+            // 
+            this.directoriesBindingSource.DataMember = "Directories";
+            this.directoriesBindingSource.DataSource = this.oVLDataSet1;
+            // 
+            // oVLDataSet1
+            // 
+            this.oVLDataSet1.DataSetName = "OVLDataSet";
+            this.oVLDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // headersTableAdapter
+            // 
+            this.headersTableAdapter.ClearBeforeFill = true;
+            // 
+            // stringTablesTableAdapter
+            // 
+            this.stringTablesTableAdapter.ClearBeforeFill = true;
+            // 
+            // directoriesTableAdapter
+            // 
+            this.directoriesTableAdapter.ClearBeforeFill = true;
+            // 
+            // OVSopenBtn
+            // 
+            this.OVSopenBtn.Name = "OVSopenBtn";
+            this.OVSopenBtn.Size = new System.Drawing.Size(152, 22);
+            this.OVSopenBtn.Text = "Open .ovs";
+            this.OVSopenBtn.Click += new System.EventHandler(this.OVSopenBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -918,5 +923,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn u22DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn u23DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn u24DataGridViewTextBoxColumn;
+        private System.Windows.Forms.ToolStripMenuItem OVSopenBtn;
     }
 }
